@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Webapp</title>
+        <style>
+            h1{
+                background-color: brown;
+                text-align: center;
+                
+            }
+
+            table {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            td, th {
+                border: 1px solid black;
+                padding: 2px;
+            }
+            #form {
+                background-color: greenyellow;
+                padding: 50px;
+                margin: 20px;
+                
+            }
+
+
+            
+        </style>
+        </head>
+        <body>
+        <h1>Welcome to the first page 1</h1>
+        
+        <form action="">
+            <div id="form">
+                <input type="text" placeholder="Full name" name="name">
+                <input type="password" placeholder="password" name="password">
+                <br>
+                <button>Submit</button>
+            </div>
+            <div>
+                Favorite Color :
+                <input name="color" type="radio" value="red" >Red
+                <input name="color" type="radio" value="green"> Green
+                <input name="color" type="radio" value="blue"> Blue
+            </div>
+            <div>
+                <input name="country" list="countries" placeholder="Country" >
+                <datalist id="countries">
+                    <option value="India">
+                    </option>
+                    <option value="America"></option>
+                    <option value="Austraia"></option>
+                </datalist>
+            </div>
+        </form>
+        <table>
+            <thead>
+                <th>Ocean</th>
+                <th>Max depth</th>
+                <th>average depth</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pacific Ocean</td>
+                    <td>38995</td>
+                    <td>35990</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        </body>
+</html>
